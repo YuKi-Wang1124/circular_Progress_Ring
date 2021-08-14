@@ -1,24 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19158" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eMD-uH-IIT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19141"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--MUJI passport-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="circular_Progress_Ring" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="MUJI passport" id="6zZ-wd-6rI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1586" y="41"/>
+        </scene>
+        <!--我的最愛-->
+        <scene sceneID="b6a-Ba-4Yb">
+            <objects>
+                <viewController id="wsD-jq-hbf" customClass="ViewController" customModule="circular_Progress_Ring" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ERM-KS-dga">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Yr1-1g-ezK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我的最愛" image="heart.fill" catalog="system" id="A4F-p9-5Ka"/>
+                    <navigationItem key="navigationItem" id="SU2-7T-q1f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ksl-GX-Zrx" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2123" y="724"/>
+        </scene>
+        <!--打卡-->
+        <scene sceneID="qag-0L-A0N">
+            <objects>
+                <viewController id="a4f-ex-n1d" customClass="ViewController" customModule="circular_Progress_Ring" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0SA-ZG-ZJq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="kC5-WP-4U6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="打卡" image="mappin.and.ellipse" catalog="system" id="a6S-6k-rhD"/>
+                    <navigationItem key="navigationItem" id="aga-w8-0g2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MTo-t7-P1L" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1483" y="724"/>
+        </scene>
+        <!--搜尋-->
+        <scene sceneID="zH3-hf-sUa">
+            <objects>
+                <viewController id="Fo1-kc-Oze" customClass="ViewController" customModule="circular_Progress_Ring" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xKN-SO-pfB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="anM-at-t0c"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="搜尋" image="magnifyingglass" catalog="system" id="L7D-WU-dEg"/>
+                    <navigationItem key="navigationItem" id="fUX-Jl-sCF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fji-3K-MvE" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="798.55072463768124" y="723.88392857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5Gv-VP-iik">
+            <objects>
+                <viewController id="JqJ-DC-Y31" customClass="ViewController" customModule="circular_Progress_Ring" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Npw-V3-aye">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vZs-6H-0eL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eFr-gr-jG4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jhl-aW-z5y" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1585.5072463768117" y="40.848214285714285"/>
+        </scene>
+        <!--from MUJI-->
+        <scene sceneID="0Jz-BO-4Wt">
+            <objects>
+                <viewController id="lpx-vn-Dow" customClass="ViewController" customModule="circular_Progress_Ring" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kFj-Sr-eMn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="iHs-4q-sIz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="from MUJI" image="star.fill" catalog="system" id="UDW-Wd-WnP"/>
+                    <navigationItem key="navigationItem" id="wg9-nZ-glX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ohB-Pz-jQx" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10" y="724"/>
+        </scene>
+        <!--passport-->
+        <scene sceneID="3gx-XW-GJJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Uun-vM-1ui" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="passport" image="person.crop.circle" catalog="system" id="L7V-uy-lyJ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fqi-ei-Hsb">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" red="0.94852833156817329" green="0.94706348546577135" blue="0.9726506981653037" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <textAttributes key="titleTextAttributes"/>
+                        </navigationBarAppearance>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ugq-Yt-fmK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eWb-RK-ewA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900.00000000000011" y="40.848214285714285"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="HC4-dK-rlU">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="eMD-uH-IIT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZDo-7A-76p">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.5490196078431373" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <tabBarAppearance key="scrollEdgeAppearance"/>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <color key="tintColor" red="0.5490196078431373" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </variation>
+                    </tabBar>
+                    <connections>
+                        <segue destination="lpx-vn-Dow" kind="relationship" relationship="viewControllers" id="5SB-s6-ach"/>
+                        <segue destination="Fo1-kc-Oze" kind="relationship" relationship="viewControllers" id="zCO-Bg-jdU"/>
+                        <segue destination="a4f-ex-n1d" kind="relationship" relationship="viewControllers" id="WnS-7Q-V8i"/>
+                        <segue destination="wsD-jq-hbf" kind="relationship" relationship="viewControllers" id="Hn2-9q-qZp"/>
+                        <segue destination="Uun-vM-1ui" kind="relationship" relationship="viewControllers" id="ToK-0f-dzd"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="98u-es-AkW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10.144927536231885" y="40.848214285714285"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="121"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
